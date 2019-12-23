@@ -13,6 +13,11 @@ li {
   padding: 0;
   height: 80px;
 }
+#statusbar {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
 .statusbar {
   text-align: center;
   padding-top: 0px;
