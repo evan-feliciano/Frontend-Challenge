@@ -46,13 +46,19 @@ li {
 * {
   box-sizing: border-box;
 }
+#navlist {
+display: flex;
+justify-content: center;
+align-items: center;
+}
 #navlist li {
   display: inline-block;
   padding-left: 20px;
   float: left;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
+  font-size: 50px;
 }
 .style1 {
   font-size: 50px;
@@ -63,7 +69,7 @@ li {
   width: 25%;
   text-align: right;
 }
-.chevron {
+.navlist, .chevron {
   font-size: 40px;
 }
 .style2 {
@@ -95,7 +101,6 @@ section {
 }
 ul {
   padding-top: 28px;
-  id="navlist"
 }
 p {
   padding-top: 25px;
