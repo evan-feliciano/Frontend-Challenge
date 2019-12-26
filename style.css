@@ -14,6 +14,7 @@ li {
   height: 80px;
   padding-bottom: 40px;
   width: fit-content;
+  width: 100%;
 }
 #statusbar {
   display: flex;
@@ -21,6 +22,9 @@ li {
   list-style: none;
   padding-left: 20px;
   padding-right: 20px;
+  background: #fff;
+  z-index: 1;
+  height: 200px;
 }
 .statusbar {
   text-align: center;
@@ -41,6 +45,18 @@ li {
   position: absolute;
 }
 .statusbar, .time {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 40px;
+  position: fixed;
+}
+.statusbar, .back {
+  font-size: 50px;
+  float: left;
+  position: absolute;
+  padding-top: 80px;
+}
+.statusbar, .stops {
   font-family: sans-serif;
   text-align: center;
   font-size: 40px;
@@ -100,7 +116,7 @@ align-items: center;
 section {
   margin: 0 auto;
   width: 100%;
-  padding-top: 80px;
+  padding-top: 200px;
   text-align: left;
 }
 ul {
