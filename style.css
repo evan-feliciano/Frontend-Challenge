@@ -33,15 +33,18 @@ li {
 .statusbar, .wifi {
   font-size: 50px;
   float: left;
+  position: absolute;
 }
 .statusbar, .battery {
   font-size: 50px;
   float: right;
+  position: absolute;
 }
 .statusbar, .time {
   font-family: sans-serif;
   text-align: center;
   font-size: 40px;
+  position: fixed;
 }
 * {
   box-sizing: border-box;
@@ -78,14 +81,15 @@ align-items: center;
   font-variant: small-caps;
   font-family: sans-serif;
   color: black;
-  width: 70%;
+  width: 85%;
 }
 .statusbar {
-  background: white (0,0,0,0.7);
+  background: grey (0,0,0,0.7);
   height: 40px;
   padding: 0;
   margin: 0;
   text-align: right;
+  position: fixed;
 }
 .text {
   color: black;
@@ -119,7 +123,7 @@ h3 {
   color: black;
 }
 .element {
-  background-color: lightgray;
+  background-color: #DADADA;
   height: 200px;
   width: 100%;
   opacity: 80%;
@@ -127,6 +131,6 @@ h3 {
   font-weight: 400;
 }
 .outofservice {
-  background-color: red;
+  background-color: #8B8B8B;
   opacity: 75%;
 }
