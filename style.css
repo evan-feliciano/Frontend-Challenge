@@ -3,6 +3,7 @@ body {
   background-color: black;
   background-position: center;
   font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont;
 }
 
 li {
